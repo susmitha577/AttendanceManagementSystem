@@ -50,7 +50,11 @@ MySQL is used as the database for storing:
 6. Copy the project files into the Tomcat `webapps` folder.
 7. Start Apache Tomcat.
 8. Open the application in a web browser.
+## 🌐 Application URL
 
+This project runs locally using Apache Tomcat.
+
+http://localhost:8080/SITE/
 ## 👩‍💻 Developer
 
 **Susmitha**
