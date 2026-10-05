@@ -1,0 +1,92 @@
+<DOCTYPE! html>
+<html>
+<head>
+	<title>Sign up page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center>
+	<h1>SIGN UP</h1>
+	<form action="signup.jsp" method="post">
+	<table cellpadding="8">
+	<tr>
+		<td>User Name</td>
+		<td><input type="text" name="username" requried></td>
+	</tr>
+	<tr>
+		<td>Password</td>
+		<td><input type="password" name="password" required ></td>
+	</tr>
+	<tr>
+		<td>Confirm Password</td>
+		<td><input type="password" name="confirmpassword" required></td>
+	</tr>
+	<tr>
+		<td>First Name</td>
+		<td><input type="text" name="firstname" requried></td>
+	</tr>
+	<tr>
+		<td>Last Name</td>
+		<td><input type="text" name="lastname" required></td>
+	</tr>
+	<tr>
+		<td>Address</td>
+		<td>
+       		 <textarea name="address" rows="4" cols="22"></textarea>
+  		 </td>
+	</tr>
+
+	<tr>
+		    <td>Mobile No</td>
+    					<td><input type="tel" name="mobile" required></td>
+</tr>
+
+<tr>
+    <td>Mail ID</td>
+    <td><input type="email" name="mailid" required></td>
+</tr>
+
+<tr>
+    <td>Alternate Mail ID</td>
+    <td><input type="email" name="altmail"></td>
+</tr>
+
+<tr>
+    <td>Gender</td>
+    <td>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+    </td>
+</tr>
+
+<tr>
+    <td>Hobbies</td>
+    <td>
+        <input type="checkbox" name="hobbies" value="Reading"> Reading
+        <input type="checkbox" name="hobbies" value="Sports"> Sports
+        <input type="checkbox" name="hobbies" value="Music"> Music
+    </td>
+</tr>
+
+<tr>
+    <td>Date of Birth</td>
+    <td><input type="date" name="dob" required></td>
+</tr>
+
+<tr>
+    <td></td>
+    <td>
+        <input type="submit" value="Sign Up">
+        <input type="reset" value="Clear">
+    </td>
+</tr>
+
+</table>
+
+</form>
+
+</center>
+
+</body>
+</html>

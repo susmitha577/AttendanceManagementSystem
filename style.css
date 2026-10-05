@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial,sans-serif;
+
+    background:
+    radial-gradient(circle at top left,#ffffff55 10%,transparent 10%),
+    radial-gradient(circle at bottom right,#ffffff55 10%,transparent 10%),
+    linear-gradient(135deg,#6dd5fa,#2980b9,#6a11cb);
+
+    background-size:200px 200px,200px 200px,100% 100%;
+}
+@keyframes bg{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+h1{
+    color:white;
+    font-size:40px;
+    text-align:center;
+    text-shadow:2px 2px 5px black;
+}
+table{
+    background:rgba(255,255,255,0.9);
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+td{
+    color:red;
+    font-weight:bold;
+    padding:10px;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=tel],
+input[type=date],
+textarea{
+    width:250px;
+    padding:10px;
+    border-radius:25px;
+    border:1px solid #ccc;
+    outline:none;
+}
+textarea{
+    resize:none;
+}
+
+input[type=radio],
+input[type=checkbox]{
+    transform:scale(1.2);
+}
+
+input[type=submit]{
+    background:#28a745;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:25px;
+    cursor:pointer;
+}
+
+input[type=submit]:hover{
+    background:#009624;
+    transform:scale(1.05);
+}
+
+input[type=reset]{
+    background:#dc3545;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:25px;
+    cursor:pointer;
+}
+
+
+input[type=reset]:hover{
+    background:#d50000;
+    transform:scale(1.05);
+}
+
+a{
+    color:yellow;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:hover{
+    text-decoration:underline;
+}

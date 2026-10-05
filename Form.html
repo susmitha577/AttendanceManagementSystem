@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>College Registration Form</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#6a11cb,#2575fc);
+}
+
+.container{
+width:420px;
+margin:40px auto;
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0px 0px 15px black;
+}
+
+h2{
+text-align:center;
+color:#2575fc;
+}
+
+table{
+width:100%;
+}
+
+td{
+padding:8px;
+}
+
+input,select,textarea{
+width:100%;
+padding:8px;
+border:1px solid gray;
+border-radius:6px;
+}
+
+.gender{
+width:auto;
+}
+
+.button{
+background:#2575fc;
+color:white;
+border:none;
+padding:10px;
+font-size:17px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.button:hover{
+background:#0d47a1;
+}
+
+.reset{
+background:red;
+color:white;
+border:none;
+padding:10px;
+font-size:17px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.reset:hover{
+background:darkred;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>College Registration Form</h2>
+
+<form action="myown.jsp" method="post">
+
+<table>
+
+<tr>
+<td>Full Name</td>
+<td><input type="text" name="name" required></td>
+</tr>
+
+<tr>
+<td>Roll Number</td>
+<td><input type="text" name="roll"></td>
+</tr>
+
+<tr>
+<td>Email</td>
+<td><input type="email" name="email"></td>
+</tr>
+
+<tr>
+<td>Password</td>
+<td><input type="password" name="password"></td>
+</tr>
+
+<tr>
+<td>Phone</td>
+<td><input type="tel" name="phone"></td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td>
+<input class="gender" type="radio" name="gender" value="Male"> Male
+<input class="gender" type="radio" name="gender" value="Female"> Female
+</td>
+</tr>
+
+<tr>
+<td>Course</td>
+<td>
+<select name="course">
+<option>B.Tech</option>
+<option>B.Sc</option>
+<option>B.Com</option>
+<option>MCA</option>
+<option>MBA</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Branch</td>
+<td>
+<select name="branch">
+<option>CSE</option>
+<option>ECE</option>
+<option>EEE</option>
+<option>Mechanical</option>
+<option>Civil</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Date of Birth</td>
+<td><input type="date" name="dob"></td>
+</tr>
+
+<tr>
+<td>Address</td>
+<td><textarea name="address"></textarea></td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<input class="button" type="submit" value="Register">
+<input class="reset" type="reset" value="Clear">
+</td>
+</tr>
+
+</table>
+
+</form>
+
+</div>
+
+</body>
+</html>
